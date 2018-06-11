@@ -1,35 +1,38 @@
 {
   "name": "erdmannfreunde/euf_hero",
   "description": "Contao Extension to create grid-layouts",
-  "keywords": ["contao", "grid", "bootstrap", "euf grid"],
-  "type": "contao-module",
+  "keywords": [
+    "contao"
+  ],
+  "type": "contao-bundle",
   "homepage": "https://github.com/ErdmannFreunde/euf_grid",
-  "license": "GPL-3.0+",
-	"authors":[
-		{
-			"name":"Erdmann & Freunde // Sebastian Buck",
-			"homepage":"http://erdmann-freunde.de",
-			"role":"Developer"
-		}
-	],
-	"support":{
-  	"email": "moin@erdmann-freunde.de",
-		"issues":"https://github.com/ErdmannFreunde/euf_grid/issues",
-		"source":"https://github.com/ErdmannFreunde/euf_grid"
-	},
-	"require": {
-    "php": ">=5.3",
-    "contao/core-bundle": ">=3.5,<=3.5.9999",
-    "contao-community-alliance/composer-plugin":"^2.3.0 || 3.*"
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Erdmann & Freunde // Sebastian Buck",
+      "homepage": "http://erdmann-freunde.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "moin@erdmann-freunde.de",
+    "issues": "https://github.com/ErdmannFreunde/euf_grid/issues",
+    "source": "https://github.com/ErdmannFreunde/euf_grid"
   },
-  "replace": {
-    "contao-legacy/euf_grid": "self.version"
+  "require": {
+    "php": "^7.1",
+    "contao/core-bundle": "^4.4",
+    "symfony/http-kernel": "^3.3 || ^4.0"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "~2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "ErdmannFreunde\\ContaoHeroBundle\\": "src/"
+    }
   },
   "extra": {
-    "contao": {
-      "sources": {
-        "": "system/modules/euf_grid"
-      }
-    }
+    "contao-manager-plugin": "ErdmannFreunde\\ContaoHeroBundle\\ContaoManager\\Plugin"
   }
 }
