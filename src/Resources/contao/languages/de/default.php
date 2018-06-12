@@ -1,7 +1,7 @@
 <?php
 
 /**
- * * This file is part of ErdmannFreunde/euf_contact.
+ * * This file is part of ErdmannFreunde/euf_hero.
  *
  * (c) 2016-2018 Erdmann & Freunde.
  *

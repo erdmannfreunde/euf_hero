@@ -1,7 +1,7 @@
 <?php
 
 /**
- * * This file is part of ErdmannFreunde/euf_contact.
+ * * This file is part of ErdmannFreunde/euf_hero.
  *
  * (c) 2016-2018 Erdmann & Freunde.
  *
@@ -35,7 +35,7 @@ class Plugin implements BundlePluginInterface
      *
      * @return ConfigInterface[]
      */
-    public function getBundles(ParserInterface $parser)
+    public function getBundles(ParserInterface $parser): array
     {
         return [
             BundleConfig::create(ErdmannFreundeContaoHeroBundle::class)
