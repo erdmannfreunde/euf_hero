@@ -34,11 +34,11 @@
       	<div class="button_container">
       
 	      <?php if ($this->urlPrimary): ?>
-	    		<a href="<?= $this->urlPrimary ?>" class="<?= $this->linkClassPrimary ?>" title="<?= $this->linkTitlePrimary ?>"<?= $this->targetPrimary ?><?= $this->relPrimary ?>><?= $this->linkTitlePrimary ?></a>
+	    		<a href="<?= $this->urlPrimary ?>" class="<?= $this->linkClassPrimary ?>" title="<?= $this->titleTextPrimary ?>"<?= $this->targetPrimary ?><?= $this->relPrimary ?>><?= $this->linkTitlePrimary ?></a>
 	    	<?php endif; ?>
 	    	
 	    	<?php if ($this->urlSecondary): ?>
-	    		<a href="<?= $this->urlSecondary ?>" class="<?= $this->linkClassSecondary ?>" title="<?= $this->linkTitleSecondary ?>"<?= $this->targetSecondary ?><?= $this->relSecondary ?>><?= $this->linkTitleSecondary ?></a>
+	    		<a href="<?= $this->urlSecondary ?>" class="<?= $this->linkClassSecondary ?>" title="<?= $this->titleTextSecondary ?>"<?= $this->targetSecondary ?><?= $this->relSecondary ?>><?= $this->linkTitleSecondary ?></a>
 	    	<?php endif; ?>
 	    	
       	</div>
@@ -46,5 +46,4 @@
 	    <?php endif; ?>
     </div>
   </div>
-
 </div>
