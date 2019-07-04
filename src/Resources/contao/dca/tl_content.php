@@ -19,7 +19,7 @@
 $GLOBALS['TL_DCA']['tl_content']['palettes']['__selector__'][] = 'addText';
 
 $GLOBALS['TL_DCA']['tl_content']['palettes']['hero'] = '{type_legend},type,headline;'
-                                                       . '{text_legend},text;'
+                                                       . '{text_legend},addText;'
                                                        . '{image_legend},addImage;'
                                                        . '{link_primary_legend},urlPrimary,targetPrimary,linkTitlePrimary,titleTextPrimary,relPrimary,linkClassPrimary;'
                                                        . '{link_secondary_legend},urlSecondary,targetSecondary,linkTitleSecondary,titleTextSecondary,relSecondary,linkClassSecondary;'
