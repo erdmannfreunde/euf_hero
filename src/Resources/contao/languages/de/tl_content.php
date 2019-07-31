@@ -19,6 +19,7 @@
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['tl_content']['link_primary_legend']			= 'Primäre Verlinkung';
-$GLOBALS['TL_LANG']['tl_content']['link_secondary_legend']			= 'Sekundäre Verlinkung';
-$GLOBALS['TL_LANG']['tl_content']['linkClass']			= array('Link-Klasse','Hier können Sie eine Link-Klasse vergeben, z.B. btn btn--primary');
+$GLOBALS['TL_LANG']['tl_content']['addText']                  = array('Einen Text hinzufügen', 'Den Inhaltselement einen Text hinzufügen');
+$GLOBALS['TL_LANG']['tl_content']['link_primary_legend']      = 'Primäre Verlinkung';
+$GLOBALS['TL_LANG']['tl_content']['link_secondary_legend']    = 'Sekundäre Verlinkung';
+$GLOBALS['TL_LANG']['tl_content']['linkClass']			          = array('Link-Klasse','Hier können Sie eine Link-Klasse vergeben, z.B. btn btn--primary');

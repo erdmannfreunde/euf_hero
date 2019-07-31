@@ -25,9 +25,12 @@
       <p class="headline">
         <?= $this->headline ?>
       </p>
-      <div class="description">
-        <?= $this->text ?>
-      </div>
+      
+      <?php if ($this->addText): ?>
+        <div class="description">
+	  <?= $this->text ?>
+	</div>
+      <?php endif; ?>
       
       <?php if ($this->urlPrimary || $this->urlSecondary): ?>
       	
