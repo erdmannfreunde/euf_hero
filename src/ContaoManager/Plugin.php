@@ -35,7 +35,7 @@ class Plugin implements BundlePluginInterface
      *
      * @return ConfigInterface[]
      */
-    public function getBundles(ParserInterface $parser): array
+    public function getBundles(ParserInterface $parser)
     {
         return [
             BundleConfig::create(ErdmannFreundeContaoHeroBundle::class)
