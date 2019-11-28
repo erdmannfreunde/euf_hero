@@ -37,7 +37,7 @@ class Hero extends ContentElement
     /**
      * Generate the content element
      */
-    protected function compile(): void
+    protected function compile()
     {
         /** @var \PageModel $objPage */
         global $objPage;
