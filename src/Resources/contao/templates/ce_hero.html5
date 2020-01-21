@@ -1,6 +1,6 @@
 <div class="<?= $this->class ?> block"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
 
-<?php if (!$this->addBefore): ?>
+<?php if (!$this->addBefore && ($this->headline || $this->addText || $this->urlPrimary || $this->urlSecondary)): ?>
   <div class="content_container">
     <div class="teaser">
 
@@ -53,7 +53,7 @@
     </figure>
   <?php endif; ?>
 
-<?php if ($this->addBefore): ?>
+<?php if ($this->addBefore && ($this->headline || $this->addText || $this->urlPrimary || $this->urlSecondary)): ?>
   <div class="content_container">
     <div class="teaser">
 
