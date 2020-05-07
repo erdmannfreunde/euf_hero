@@ -1,11 +1,11 @@
 {
   "name": "erdmannfreunde/euf_hero",
-  "description": "Contao Extension to create grid-layouts",
+  "description": "Use a Hero-Element in Contao",
   "keywords": [
     "contao"
   ],
   "type": "contao-bundle",
-  "homepage": "https://github.com/ErdmannFreunde/euf_grid",
+  "homepage": "https://github.com/ErdmannFreunde/euf_hero",
   "license": "GPL-3.0-or-later",
   "authors": [
     {
@@ -16,8 +16,8 @@
   ],
   "support": {
     "email": "moin@erdmann-freunde.de",
-    "issues": "https://github.com/ErdmannFreunde/euf_grid/issues",
-    "source": "https://github.com/ErdmannFreunde/euf_grid"
+    "issues": "https://github.com/ErdmannFreunde/euf_hero/issues",
+    "source": "https://github.com/ErdmannFreunde/euf_hero"
   },
   "require": {
     "php": ">=5.6",
