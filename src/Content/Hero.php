@@ -71,5 +71,23 @@ class Hero extends ContentElement
                 static::addImageToTemplate($this->Template, $this->arrData);
             }
         }
+
+        $this->Template->targetPrimary = '';
+        $this->Template->relPrimary = '';
+        $this->Template->targetSecondary = '';
+        $this->Template->relSecondary = '';
+        
+        // Override the link target
+        if ($this->targetPrimary)
+        {
+            $this->Template->targetPrimary = ' target="_blank"';
+            $this->Template->relPrimary = ' rel="noreferrer noopener"';
+        }
+        
+        if ($this->targetSecondary)
+        {
+            $this->Template->targetSecondary = ' target="_blank"';
+            $this->Template->relSecondary = ' rel="noreferrer noopener"';
+        }
     }
 }
