@@ -68,7 +68,7 @@ class Hero extends ContentElement
                 }
             } elseif (is_file(TL_ROOT . '/' . $objModel->path)) {
                 $this->singleSRC = $objModel->path;
-                static::addImageToTemplate($this->Template, $this->arrData);
+                static::addImageToTemplate($this->Template, $this->arrData, null, null, $objModel);
             }
         }
 
