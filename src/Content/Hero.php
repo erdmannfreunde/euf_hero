@@ -42,12 +42,7 @@ class Hero extends ContentElement
         /** @var \PageModel $objPage */
         global $objPage;
 
-        // Clean the RTE output
-        if ('xhtml' === $objPage->outputFormat) {
-            $this->text = StringUtil::toXhtml($this->text);
-        } else {
-            $this->text = StringUtil::toHtml5($this->text);
-        }
+        $this->text = StringUtil::toHtml5($this->text);
 
         // Add the static files URL to images
         if (TL_FILES_URL) {
